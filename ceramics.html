@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0;">
+    <style>
+        .playfair{
+            font-family: 'Playfair Display', serif;
+        }
+        .ceramicTitle h5{
+            font-size: 28px;
+        }
+        .secondTitle{
+            font-size: 40px;
+        }
+        div .pictureBackground{
+            background-color:#EBEBE1; 
+            height: auto;
+        }
+        .whiteletter{
+            color: white;
+            font-size: 60px;
+        }    
+        .container{
+            margin-bottom: 100px;
+        }
+        .img1{
+            background-image: url(./IMG_8406.jpg); 
+            background-size: cover;
+            background-position: center;
+            height:830px;
+        }
+        /* DEMO-SPECIFIC STYLES */
+        .typewriter h1 {
+            color: #fff;
+            overflow: hidden; /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid orange; /* The typwriter cursor */
+            white-space: nowrap; /* Keeps the content on a single line */
+            margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .15em; /* Adjust as needed */
+            animation: 
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+            
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from { width: 0 }
+            to { width: 75% }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+            from, to { border-color: transparent }
+            50% { border-color: orange }
+        }            
+        .typewriterBox{
+            border: .15em solid orange;
+            height: 80px;
+            width: 75%;
+        }
+        /* END OF TYPE WRITER EFFECT */
+        /**For Sticky NavBar **/
+        #navbar {
+            overflow: hidden;
+            background-color: black;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+        #navbar a{
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align:center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+            
+        }
+
+        #navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        #navbar a.active {
+            color: white;
+            
+        }
+
+        .content {
+            padding: 16px;
+        }
+
+        .sticky {
+            position: fixed;
+            top: 0;
+            width: 100%;
+
+        }
+
+        .sticky + .content{
+            padding-top: 60px;
+        }
+
+        .border{
+            border-width: 1px;
+        }
+
+        /** End of Sticky NavBar **/
+        
+        .image-container {
+            overflow: hidden;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+            display:block;    
+        }
+        .left {
+            float: left ;
+            width: 50% ;
+        }
+        .right {
+            float: left;
+            width: 50%;
+        }
+        .img2{
+            background-image: url("./ceramics/IMG_5397.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            transform: rotate(270deg);
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+
+        }
+        .img3{
+            background-image: url("./ceramics/ceramicbowl.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+            
+        }
+        .img4{
+            background-image: url("./ceramics/IMG_5398.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+        }
+        .img5{
+            background-image:url("./ceramics/IMG_5391.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border:  1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+            transform: rotate(270deg);
+        }
+        .img6{
+            background-image:url("./ceramics/IMG_8374.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img7{
+            background-image:url("./ceramics/IMG_8488.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img8{
+            background-image:url("./ceramics/IMG_8430.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img9{
+            background-image:url("./ceramics/IMG_8437.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img10{
+            background-image:url("./ceramics/IMG_8546.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+        }
+        .img11{
+            background-image:url("./ceramics/IMG_8700.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img12{
+            background-image:url("./ceramics/IMG_8454.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img13{
+            background-image:url("./ceramics/IMG_8670.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+        }
+        .column {
+          float: left;
+          width: 33.33%;
+        }
+        .img14{
+            background-image:url("./ceramics/IMG_8398.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height:330px;
+        }
+        .img15{
+            background-image:url("./ceramics/IMG_5393.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width:330px;
+            height: 330px;
+            transform: rotate(270deg);
+        }
+        .img16{
+            background-image:url("./ceramics/IMG_5388.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height: 330px;
+            transform: rotate(270deg);
+        }
+        .img17{
+            background-image:url("./ceramics/IMG_8386.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height: 330px;
+        }
+        .img18{
+            background-image:url("./ceramics/IMG_5399.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+            transform: rotate(270deg);
+        }
+        .img19{
+            background-image:url("./ceramics/IMG_5394.JPG");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            border: 1px solid black;
+            border-radius: 6px;
+            width: 330px;
+            height:330px;
+        }
+        @media only screen and (min-width: 375px) and (max-width: 767px){
+            .img1{
+                background-image: url(./IMG_8406.jpg); 
+                background-size: 100%;
+                background-position: center;
+                background-repeat: no-repeat;
+                display: block;
+                height: 15.65em;
+                width: 100%;   
+            }
+            .img2{
+                background-image: url("./ceramics/IMG_5397.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                transform: rotate(0deg);
+                width: 175px;
+                height:175px;
+                border: 1px solid black;
+                border-radius: 6px;
+
+            }
+            .img3{
+                background-image: url("./ceramics/ceramicbowl.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width:175px;
+                height:175px;
+            }
+            .img4{
+                background-image: url("./ceramics/IMG_5398.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img5{
+                background-image: url("./ceramics/IMG_5391.jpg");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);
+            }
+            .img6{
+                background-image: url("./ceramics/IMG_8374.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img7{
+                background-image: url("./ceramics/IMG_8488.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width:175px ;
+                height:175px;
+            }
+            .img8{
+                background-image:url("./ceramics/IMG_8430.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img9{
+                background-image:url("./ceramics/IMG_8437.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img10{
+                background-image:url("./ceramics/IMG_8546.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img11{
+                background-image:url("./ceramics/IMG_8700.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img12{
+                background-image:url("./ceramics/IMG_8454.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img13{
+                background-image:url("./ceramics/IMG_8670.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img14{
+                background-image:url("./ceramics/IMG_8398.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img15{
+                background-image:url("./ceramics/IMG_5393.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);
+            }
+            .img16{
+                background-image:url("./ceramics/IMG_5388.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);    
+            }
+            .img17{
+                background-image:url("./ceramics/IMG_8386.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            .img18{
+                background-image:url("./ceramics/IMG_5399.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+                transform: rotate(0deg);
+            }
+            .img19{
+                background-image:url("./ceramics/IMG_5394.JPG");
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: contain;
+                border: 1px solid black;
+                border-radius: 6px;
+                width: 175px;
+                height:175px;
+            }
+            /* DEMO-SPECIFIC STYLES */
+            .typewriter h1 {
+                color: white;
+                overflow: hidden; /* Ensures the content is not revealed until the animation */
+                border-right: .15em solid orange; /* The typwriter cursor */
+                white-space: nowrap; /* Keeps the content on a single line */
+                margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+                letter-spacing: .15em; /* Adjust as needed */
+                animation: 
+                typing 3.5s steps(30, end),
+                blink-caret .5s step-end infinite;
+                font-size: 20px;
+                
+                
+            }
+            /* The typing effect */
+            @keyframes typing {
+                from { width: 0 }
+                to { width: 100% }
+               
+            }
+
+            /* The typewriter cursor effect */
+            @keyframes blink-caret {
+               
+                from, to { border-color: transparent }
+                50% { border-color: orange }
+    
+            }  
+            .typewriterBox{
+                border: .15em solid orange;
+                transform: translate(0px,-225px);
+                height:23px;
+                width: 75%;
+            }
+            /* END OF TYPE WRITER EFFECT */
+            /**For Sticky NavBar **/
+            #navbar {
+                overflow: hidden;
+                
+
+            }
+            #navbar a{
+                float: left;
+                display: block;
+                color: #f2f2f2;
+                text-align:center;
+                padding: 10px 16px;
+                text-decoration: none;
+                font-size: 17px;
+                width: 15px;
+            }
+
+            #navbar a:hover {
+                background-color: #ddd;
+                color: black;
+            }
+
+            #navbar a.active {
+                color: white;
+                font-size: 10px;
+            }
+
+            .content {
+                padding: 16px;
+            }
+
+            .sticky {
+                position: fixed;
+                top: 0;
+                width: 100%;
+
+            }
+
+            .sticky + .content{
+                padding-top: 60px;
+            }
+
+            .border{
+                border-width: 1px;
+            }
+            .column{
+                width: 50%;
+                transform: translate(0px, -28px);
+            }
+            /** End of Sticky NavBar **/
+            .ceramicTitle h5{
+                font-size: .83em
+            }
+            .secondTitle{
+                font-size: 1.2em;
+            }
+        }
+    </style>
+    
+    <script>
+         /** Sticky NavBar **/
+       document.addEventListener("DOMContentLoaded", function(event) { 
+       var navbar= document.getElementById("navbar")
+       var sticky= navbar.offsetTop;
+
+       function myFunction() {
+           if (window.pageYOffset >= sticky) {
+               navbar.classList.add("sticky")
+           } else{
+               navbar.classList.remove("sticky")
+           }
+       }
+       window.onscroll= function () {myFunction()};
+       });
+       /** End of Sticky NavBar **/
+      
+      
+    </script>
+
+</head>
+
+    
+<body style= "margin:0px;">
+  <!-- First section-->
+  <div class="img1">
+      <div class= "typewriter">
+          <center>
+                <div id= 'navbar'>
+                    <div>
+                        <b><a class= "active" href= "index.html"> Home </a></b>
+                    </div>
+                    <div>
+                        <b><a class= "active" href= "about.html" > Contact </a></b>
+                    </div>
+                    <div>
+                        <a href= "ceramics.html" class= "active"><b> Ceramics </b> </a>
+                    </div>
+                </div>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br><br><br><br><br>
+                <br>  
+                    <div class= "typewriterBox">
+                        <h1 class= "whiteletter playfair">
+                            <b>Ceramics By MAC </b>
+                        </h1>
+                    </div>       
+            </center>   
+      </div>
+    </div>
+    <!-- End of First section-->
+    
+    <!-- Second section-->
+    <div class= "pictureBackground">
+        <h2 class="secondTitle"> <center><b>Mark's Ceramic Gallery</b>
+            </center></h2>
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #1</h5>
+                    <div class= "img2"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #2</h5>
+                    <div class= "img3"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #3</h5>
+                    <div class= "img4"></div>
+                </div>
+            </center>
+        </div>      
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #4</h5>
+                    <div class= "img5">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #5</h5>
+                    <div class= "img6"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #6</h5>
+                    <div class= "img7"></div>
+                </div>
+            </center>
+        </div>      
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #7</h5>
+                    <div class= "img8">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #8</h5>
+                    <div class= "img9"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #9</h5>
+                    <div class= "img10"></div>
+                </div>
+            </center>
+        </div>     
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #10</h5>
+                    <div class= "img11">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #11</h5>
+                    <div class= "img12"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #12</h5>
+                    <div class= "img13"></div>
+                </div>
+            </center>
+        </div>  
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #13</h5>
+                    <div class= "img14">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #14</h5>
+                    <div class= "img15"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #15</h5>
+                    <div class= "img16"></div>
+                </div>
+            </center>
+        </div>     
+        <div class= "container ceramicTitle">
+            <center>
+                <div class="column">
+                    <h5>Ceramic Piece #16</h5>
+                    <div class= "img17">
+                    </div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #17</h5>
+                    <div class= "img18"></div>
+                </div>
+                <div class="column">
+                    <h5> Ceramic Piece #18</h5>
+                    <div class= "img19"></div>
+                </div>
+            </center>
+        </div>     
+    </div>
+
+
+    
+    
+    
+    
+</body>
+</html>
+

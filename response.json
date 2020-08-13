@@ -1,0 +1,796 @@
+{
+ "kind": "books#volumes",
+ "totalItems": 1377,
+ "items": [
+  {
+   "kind": "books#volume",
+   "id": "l77qOebMlo4C",
+   "etag": "IU0+nJ3/q3M",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/l77qOebMlo4C",
+   "volumeInfo": {
+    "title": "The Complete Stories of Robert Louis Stevenson",
+    "subtitle": "Strange Case of Dr. Jekyll and Mr. Hyde and Nineteen Other Tales",
+    "authors": [
+     "Robert Louis Stevenson"
+    ],
+    "publisher": "Modern Library",
+    "publishedDate": "2011-07-13",
+    "description": "The complexity and range of Robert Louis Stevenson’s short fiction reveals his genius perhaps more than any other medium. Here, leading Stevenson scholar Barry Menikoff arranges and introduces the complete selection of Stevenson’s brilliant stories, including the famed masterpiece Strange Case of Dr. Jekyll and Mr. Hyde, as well as “The Beach of Falesá” and Stevenson’s previously uncollected stories. Arthur Conan Doyle has written that “[Stevenson’s] short stories are certain to retain their position in English literature. His serious rivals are few indeed.” This Modern Library Paperback Classics edition includes explanatory notes, a Scots’ Glossary, and a unique appendix dedicated to Stevenson’s influence on the Oxford English Dictionary.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780307796844"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0307796841"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": false
+    },
+    "pageCount": 880,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "5.8.5.0.preview.2",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=l77qOebMlo4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=l77qOebMlo4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=l77qOebMlo4C&printsec=frontcover&dq=Treasure+Island&hl=&cd=1&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=l77qOebMlo4C&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=l77qOebMlo4C"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 11.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=l77qOebMlo4C&rdid=book-l77qOebMlo4C&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.199E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED_FOR_ACCESSIBILITY",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/The_Complete_Stories_of_Robert_Louis_Ste-sample-epub.acsm?id=l77qOebMlo4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=l77qOebMlo4C&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "The complexity and range of Robert Louis Stevenson’s short fiction reveals his genius perhaps more than any other medium."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "48W2DwAAQBAJ",
+   "etag": "YxVJe2F8OuE",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/48W2DwAAQBAJ",
+   "volumeInfo": {
+    "title": "Treasure Island!!!",
+    "authors": [
+     "Sara Levine"
+    ],
+    "publisher": "Europa Editions",
+    "publishedDate": "2011-12-07",
+    "description": "A young slacker decides to live her life according to Robert Louis Stevenson’s classic adventure: “A rollicking tale, shameless, funny and intelligent” (The New York Times). When a college graduate with a history of hapless jobs (ice cream scooper, gift wrapper, laziest ever part-time clerk at The Pet Library) reads Robert Louis Stevenson’s novel Treasure Island, she is dumbstruck by the timid design of her life. When had she ever dreamed a scheme? When had she ever done a foolish, overbold act? When had she ever, like Jim Hawkins, broken from her friends, raced for the beach, stolen a boat, killed a man, and eliminated an obstacle that stood in the way of her getting a hunk of gold? Convinced that Stevenson’s book is cosmically intended for her, she redesigns her life according to its Core Values: boldness, resolution, independence, and horn-blowing. Accompanied by her mother, her sister, and a hostile Amazon parrot that refuses to follow the script, our heroine embarks on a domestic adventure more frightening than anything she’d originally planned. Treasure Island!!! is the story of a ferocious obsession, told by an original voice—“insane, hilarious, and irreverent” (Alice Sebold). “Highly original . . . will keep you entertained in spite of (or more accurately, because of) its toxic narrator.” —Library Journal “A hoot.” —Kirkus Reviews",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781609459147"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1609459148"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 172,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 3.0,
+    "ratingsCount": 22,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "1.1.1.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=48W2DwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=48W2DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=48W2DwAAQBAJ&printsec=frontcover&dq=Treasure+Island&hl=&cd=2&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=48W2DwAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=48W2DwAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 17.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 10.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=48W2DwAAQBAJ&rdid=book-48W2DwAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 1.799E7,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 1.099E7,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Treasure_Island-sample-epub.acsm?id=48W2DwAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Treasure_Island-sample-pdf.acsm?id=48W2DwAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=48W2DwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Treasure Island!!! is the story of a ferocious obsession, told by an original voice—“insane, hilarious, and irreverent” (Alice Sebold). “Highly original . . . will keep you entertained in spite of (or more accurately, because of) ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "UPAYAAAAYAAJ",
+   "etag": "IAM7EZHwAvM",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/UPAYAAAAYAAJ",
+   "volumeInfo": {
+    "title": "Treasure Island",
+    "authors": [
+     "Robert Louis Stevenson"
+    ],
+    "publishedDate": "1884",
+    "description": "While going through the possessions of a deceased guest who owed them money, the mistress of the inn and her son find a treasure map that leads them to a pirate's fortune.",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "HARVARD:HN2F9Q"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 292,
+    "printType": "BOOK",
+    "categories": [
+     "Adventure stories"
+    ],
+    "averageRating": 4.0,
+    "ratingsCount": 76,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.6.0.full.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=UPAYAAAAYAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=UPAYAAAAYAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=UPAYAAAAYAAJ&printsec=frontcover&dq=Treasure+Island&hl=&cd=3&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=UPAYAAAAYAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=UPAYAAAAYAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=UPAYAAAAYAAJ&rdid=book-UPAYAAAAYAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.com/books/download/Treasure_Island.epub?id=UPAYAAAAYAAJ&hl=&output=epub&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.com/books/download/Treasure_Island.pdf?id=UPAYAAAAYAAJ&hl=&output=pdf&sig=ACfU3U2Tc0pB23PB-ZUBUuZO4IaIu0VntA&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=UPAYAAAAYAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "While going through the possessions of a deceased guest who owed them money, the mistress of the inn and her son find a treasure map that leads them to a pirate&#39;s fortune."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "qSLEAgAAQBAJ",
+   "etag": "HL/iAgVGgSg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/qSLEAgAAQBAJ",
+   "volumeInfo": {
+    "title": "Treasure Island",
+    "authors": [
+     "Robert Louis Stevenson"
+    ],
+    "publisher": "Courier Corporation",
+    "publishedDate": "2012-05-22",
+    "description": "Classic adventure story of a perilous sea journey, a mutiny led by the infamous Long John Silver, and a lethal scramble for buried treasure — seen through the eyes of cabin boy Jim Hawkins.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9780486110585"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "0486110583"
+     }
+    ],
+    "readingModes": {
+     "text": true,
+     "image": true
+    },
+    "pageCount": 160,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": true,
+    "contentVersion": "3.11.8.0.preview.3",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=qSLEAgAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=qSLEAgAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=qSLEAgAAQBAJ&printsec=frontcover&dq=Treasure+Island&hl=&cd=4&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=qSLEAgAAQBAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=qSLEAgAAQBAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FOR_SALE",
+    "isEbook": true,
+    "listPrice": {
+     "amount": 0.99,
+     "currencyCode": "USD"
+    },
+    "retailPrice": {
+     "amount": 0.99,
+     "currencyCode": "USD"
+    },
+    "buyLink": "https://play.google.com/store/books/details?id=qSLEAgAAQBAJ&rdid=book-qSLEAgAAQBAJ&rdot=1&source=gbs_api",
+    "offers": [
+     {
+      "finskyOfferType": 1,
+      "listPrice": {
+       "amountInMicros": 990000.0,
+       "currencyCode": "USD"
+      },
+      "retailPrice": {
+       "amountInMicros": 990000.0,
+       "currencyCode": "USD"
+      },
+      "giftable": true
+     }
+    ]
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Treasure_Island-sample-epub.acsm?id=qSLEAgAAQBAJ&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "acsTokenLink": "http://books.google.com/books/download/Treasure_Island-sample-pdf.acsm?id=qSLEAgAAQBAJ&format=pdf&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=qSLEAgAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Classic adventure story of a perilous sea journey, a mutiny led by the infamous Long John Silver, and a lethal scramble for buried treasure — seen through the eyes of cabin boy Jim Hawkins."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "4qxqxU3pEfUC",
+   "etag": "WD5iwKoJuOQ",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/4qxqxU3pEfUC",
+   "volumeInfo": {
+    "title": "Treasure Island",
+    "authors": [
+     "Robert Louis Stevenson"
+    ],
+    "publisher": "Campfire Graphic Novels",
+    "publishedDate": "2010",
+    "description": "Retells in graphic novel format Stevenson's story of how Jim Hawkins and his innkeeper mother find a treasure map that leads them to a pirate's fortune while going through the possessions of a deceased guest who owed them money.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9789380028217"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "9380028210"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 84,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Fiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.8.5.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=4qxqxU3pEfUC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=4qxqxU3pEfUC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=4qxqxU3pEfUC&printsec=frontcover&dq=Treasure+Island&hl=&cd=5&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=4qxqxU3pEfUC&dq=Treasure+Island&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Treasure_Island.html?hl=&id=4qxqxU3pEfUC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=4qxqxU3pEfUC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Retells in graphic novel format Stevenson&#39;s story of how Jim Hawkins and his innkeeper mother find a treasure map that leads them to a pirate&#39;s fortune while going through the possessions of a deceased guest who owed them money."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "OAUGAAAAQAAJ",
+   "etag": "4iWOcE6bMQA",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/OAUGAAAAQAAJ",
+   "volumeInfo": {
+    "title": "Treasure island. Illustr. ed",
+    "authors": [
+     "Robert Louis Stevenson"
+    ],
+    "publishedDate": "1885",
+    "industryIdentifiers": [
+     {
+      "type": "OTHER",
+      "identifier": "OXFORD:590943562"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "0.2.3.0.full.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=OAUGAAAAQAAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=OAUGAAAAQAAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=OAUGAAAAQAAJ&printsec=frontcover&dq=Treasure+Island&hl=&cd=6&source=gbs_api",
+    "infoLink": "https://play.google.com/store/books/details?id=OAUGAAAAQAAJ&source=gbs_api",
+    "canonicalVolumeLink": "https://play.google.com/store/books/details?id=OAUGAAAAQAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "FREE",
+    "isEbook": true,
+    "buyLink": "https://play.google.com/store/books/details?id=OAUGAAAAQAAJ&rdid=book-OAUGAAAAQAAJ&rdot=1&source=gbs_api"
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "ALL_PAGES",
+    "embeddable": true,
+    "publicDomain": true,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false,
+     "downloadLink": "http://books.google.com/books/download/Treasure_island_Illustr_ed.epub?id=OAUGAAAAQAAJ&hl=&output=epub&source=gbs_api"
+    },
+    "pdf": {
+     "isAvailable": true,
+     "downloadLink": "http://books.google.com/books/download/Treasure_island_Illustr_ed.pdf?id=OAUGAAAAQAAJ&hl=&output=pdf&sig=ACfU3U2pk30C7p_L8osSS0okVl9Sui6rUA&source=gbs_api"
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=OAUGAAAAQAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "FULL_PUBLIC_DOMAIN",
+    "quoteSharingAllowed": false
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "CMYzwwEACAAJ",
+   "etag": "QkjEASaeBzg",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/CMYzwwEACAAJ",
+   "volumeInfo": {
+    "title": "Treasure Island (Lighthouse Plays)",
+    "authors": [
+     "Robert Louis Stevenson",
+     "Andrew Biliter"
+    ],
+    "publisher": "Lighthouse Plays",
+    "publishedDate": "2019-03-10",
+    "description": "Jim's life was pretty ordinary-until the day a dying pirate left him with a treasure map. Now he's thrust into a world of high-seas adventure and intrigue, with a gruff captain and a naive aristocrat on one side, and a mutinous crew of undercover pirates on the other, led by the slippery Long John Silver. Directors will want all hands on deck for this faithful adaptation of Robert Louis Stevenson's classic, as it is packed with great roles of all sizes.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0997408456"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780997408454"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 106,
+    "printType": "BOOK",
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=CMYzwwEACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=CMYzwwEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=CMYzwwEACAAJ&dq=Treasure+Island&hl=&cd=7&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=CMYzwwEACAAJ&dq=Treasure+Island&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Treasure_Island_Lighthouse_Plays.html?hl=&id=CMYzwwEACAAJ"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=CMYzwwEACAAJ&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Directors will want all hands on deck for this faithful adaptation of Robert Louis Stevenson&#39;s classic, as it is packed with great roles of all sizes."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "AlWBkKZHn-UC",
+   "etag": "goJ74gk562o",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/AlWBkKZHn-UC",
+   "volumeInfo": {
+    "title": "The Curse of Treasure Island",
+    "authors": [
+     "Francis Bryan"
+    ],
+    "publisher": "New Amer Library",
+    "publishedDate": "2003",
+    "description": "In the sequel to Robert Louis Stevenson's Treasure Island, Jim Hawkins, now a young man of twenty-one, content with his peaceful life as landlord of the family inn, journeys back to the South Seas at the request of Grace Richardson, a beautiful stranger seeking assistance in locating pirate Joseph Tait, left marooned on Treasure Island. Reprint.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "045120879X"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780451208798"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": false
+    },
+    "pageCount": 291,
+    "printType": "BOOK",
+    "categories": [
+     "Fiction"
+    ],
+    "averageRating": 5.0,
+    "ratingsCount": 1,
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=AlWBkKZHn-UC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=AlWBkKZHn-UC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=AlWBkKZHn-UC&q=Treasure+Island&dq=Treasure+Island&hl=&cd=8&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=AlWBkKZHn-UC&dq=Treasure+Island&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/The_Curse_of_Treasure_Island.html?hl=&id=AlWBkKZHn-UC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "NO_PAGES",
+    "embeddable": false,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=AlWBkKZHn-UC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "NONE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "In the sequel to Robert Louis Stevenson&#39;s Treasure Island, Jim Hawkins, now a young man of twenty-one, content with his peaceful life as landlord of the family inn, journeys back to the South Seas at the request of Grace Richardson, a ..."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "MWKcV6fkK0MC",
+   "etag": "TQQwrvMbS/0",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/MWKcV6fkK0MC",
+   "volumeInfo": {
+    "title": "Treasure Island",
+    "authors": [
+     "David Calcutt",
+     "Robert Louis Stevenson"
+    ],
+    "publisher": "Nelson Thornes",
+    "publishedDate": "1999-04",
+    "description": "Narrated by Jim Hawkins as an old man, this adaptation relays all the horrors of his childhood adventures. Retaining all the qualities of Robert Louis Stevenson's famous tale of pirates, ships and buried treasure, this adaptation vividly brings characters such as Long John Silver, Ben Gunn and Blind Pew to life.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_10",
+      "identifier": "0174325606"
+     },
+     {
+      "type": "ISBN_13",
+      "identifier": "9780174325604"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 120,
+    "printType": "BOOK",
+    "categories": [
+     "Juvenile Nonfiction"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "1.1.3.0.preview.1",
+    "panelizationSummary": {
+     "containsEpubBubbles": false,
+     "containsImageBubbles": false
+    },
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=MWKcV6fkK0MC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=MWKcV6fkK0MC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=MWKcV6fkK0MC&printsec=frontcover&dq=Treasure+Island&hl=&cd=9&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=MWKcV6fkK0MC&dq=Treasure+Island&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Treasure_Island.html?hl=&id=MWKcV6fkK0MC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=MWKcV6fkK0MC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Retaining all the qualities of Robert Louis Stevenson&#39;s famous tale of pirates, ships and buried treasure, this adaptation vividly brings characters such as Long John Silver, Ben Gunn and Blind Pew to life."
+   }
+  },
+  {
+   "kind": "books#volume",
+   "id": "K9u1sz5YldEC",
+   "etag": "yFPsKkNyIag",
+   "selfLink": "https://www.googleapis.com/books/v1/volumes/K9u1sz5YldEC",
+   "volumeInfo": {
+    "title": "Treasure Island",
+    "authors": [
+     "Karen Phelps"
+    ],
+    "publisher": "Benchmark Education Company",
+    "publishedDate": "2007-01-01",
+    "description": "Perform this script about Jim Hawkins's encounters with pirates while searching for the lost treasure of Captain Flint.",
+    "industryIdentifiers": [
+     {
+      "type": "ISBN_13",
+      "identifier": "9781410879431"
+     },
+     {
+      "type": "ISBN_10",
+      "identifier": "1410879437"
+     }
+    ],
+    "readingModes": {
+     "text": false,
+     "image": true
+    },
+    "pageCount": 24,
+    "printType": "BOOK",
+    "categories": [
+     "Children's plays"
+    ],
+    "maturityRating": "NOT_MATURE",
+    "allowAnonLogging": false,
+    "contentVersion": "preview-1.0.0",
+    "imageLinks": {
+     "smallThumbnail": "http://books.google.com/books/content?id=K9u1sz5YldEC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+     "thumbnail": "http://books.google.com/books/content?id=K9u1sz5YldEC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+    },
+    "language": "en",
+    "previewLink": "http://books.google.com/books?id=K9u1sz5YldEC&printsec=frontcover&dq=Treasure+Island&hl=&cd=10&source=gbs_api",
+    "infoLink": "http://books.google.com/books?id=K9u1sz5YldEC&dq=Treasure+Island&hl=&source=gbs_api",
+    "canonicalVolumeLink": "https://books.google.com/books/about/Treasure_Island.html?hl=&id=K9u1sz5YldEC"
+   },
+   "saleInfo": {
+    "country": "US",
+    "saleability": "NOT_FOR_SALE",
+    "isEbook": false
+   },
+   "accessInfo": {
+    "country": "US",
+    "viewability": "PARTIAL",
+    "embeddable": true,
+    "publicDomain": false,
+    "textToSpeechPermission": "ALLOWED",
+    "epub": {
+     "isAvailable": false
+    },
+    "pdf": {
+     "isAvailable": false
+    },
+    "webReaderLink": "http://play.google.com/books/reader?id=K9u1sz5YldEC&hl=&printsec=frontcover&source=gbs_api",
+    "accessViewStatus": "SAMPLE",
+    "quoteSharingAllowed": false
+   },
+   "searchInfo": {
+    "textSnippet": "Perform this script about Jim Hawkins&#39;s encounters with pirates while searching for the lost treasure of Captain Flint."
+   }
+  }
+ ]
+}

@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+			img{
+				height: 500px;
+
+			}
+			.font-size-small{
+			    font-size:18px;
+			}
+			.font-size-xsmall{
+			  font-size:14px;
+			}
+			.font-size-medium{
+				font-size: 40px;
+			}
+			.font-size-large{
+				font-size: 80px;
+			}
+			.blue-text{
+				color: #19535F;
+			}
+
+			.font-quicksand{
+				font-family: 'Quicksand', sans-serif;
+			}
+			.font-quando{
+				font-family: 'Quando', serif;
+			}
+			.font-cairo {
+
+			font-family: 'Cairo', sans-serif;
+			}
+			.font-playfair{
+				font-family:'Playfair Display SC', serif;
+			}
+			.text-center{
+				text-align: center;
+			}
+			.container-background{
+				background-color:#ECB8A5;
+			}
+			.container-background2{
+				background-color:#13262F;
+			}
+			.purple {
+			  background-color: #b19cba;
+			}
+			.blue{
+			  background-color: #9cbab2;
+			}
+			.container-background3{
+				background-color: #9AB87A;
+			}
+			.yellow {
+				color: #F8F991
+			}
+			.font-playfairlower{
+				font-family: 'Playfair Display', serif;
+			}
+
+			body, html {
+			    height: 100%;
+			}
+
+			/* The hero image */
+			.hero-image {
+			  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+			  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./static/img/pic.jpg");
+
+			  /* Set a specific height */
+			  height: 100%;
+
+			  /* Position and center the image to scale nicely on all screens */
+			  background-position: center;
+			  background-repeat: no-repeat;
+			  background-size: cover;
+			  position: relative;
+			}
+
+			/* Place text in the middle of the image */
+			.hero-text {
+			  text-align: center;
+			  position: absolute;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -50%);
+			  color: white;
+			}
+			.selectize-control::before {
+			  -moz-transition: opacity 0.2s;
+			  -webkit-transition: opacity 0.2s;
+			  transition: opacity 0.2s;
+			  content: ' ';
+			  z-index: 2;
+			  position: absolute;
+			  display: block;
+			  top: 12px;
+			  right: 34px;
+			  width: 16px;
+			  height: 16px;
+			  background: url(images/spinner.gif);
+			  background-size: 16px 16px;
+			  opacity: 0;
+			}
+			.selectize-control.loading::before {
+			  opacity: 0.4;
+			}
+			.column {
+			  float: left;
+			  width: 50%;
+			}
+			.row:after {
+			  content: "";
+			  display: table;
+			  clear: both;
+			}
+			h4 {
+ 			 background-color: #4F5F93;
+			}
+			.lol{
+			   	background-color: #d5f4e6;
+			   
+			}
+			hr.solid {
+			  border-top: 3px solid #0D3756;
+			}
+
+			.font-med{
+				font size: 30px;
+			}
+
+			.font-sa{
+				font size:20px;
+			}
+			</style>
+			<style>
+			#section1 {
+			  height: 600px;
+			  
+			}
+
+			#section2 {
+			  height: 600px;
+			  
+			}
+			#section3{
+				height: 600px;
+				
+			}
+			#section4 {
+			  height: 600px;
+			  
+			}
+			</style>
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+		<script type="text/javascript">
+		<link rel="stylesheet" href="https://www.solodev.com/assets/selectize/css/normalize.css">
+		<link rel="stylesheet" href="https://www.solodev.com/assets/selectize/css/selectize.default.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<script src="https://www.solodev.com/assets/selectize/js/jquery.js"></script>
+		<script src="https://www.solodev.com/assets/selectize/js/selectize.js"></script>
+		<script src="https://www.solodev.com/assets/selectize/js/index.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script src="state.js"></script>
+
+
+        <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+		<link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(document).ready(function(){
+			  // Add smooth scrolling to all links
+			  $("a").on('click', function(event) {
+
+			    // Make sure this.hash has a value before overriding default behavior
+			    if (this.hash !== "") {
+			      // Prevent default anchor click behavior
+			      event.preventDefault();
+
+			      // Store hash
+			      var hash = this.hash;
+
+			      // Using jQuery's animate() method to add smooth page scroll
+			      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+			      $('html, body').animate({
+			        scrollTop: $(hash).offset().top
+			      }, 800, function(){
+			   
+			        // Add hash (#) to URL when done scrolling (default click behavior)
+			        window.location.hash = hash;
+			      });
+			    } // End if
+			  });
+			});
+		</script>
+
+
+
+		<script>
+        let reports = [];
+        // example {id:1592304983049, title: 'Deadpool', year: 2015}
+        const addMovie = (ev)=>{
+            ev.preventDefault();  //to stop the form submitting
+            let movie = {
+                date: document.getElementById('date').value,
+                address: document.getElementById('address').value,
+                description: document.getElementById('address').value,
+            }
+            reports.push(movie);
+            document.forms[0].reset(); // to clear the form for the next entries
+            //document.querySelector('form').reset();
+
+            //for display purposes only
+            console.warn('added' , {reports} );
+            let pre = document.querySelector('#msg pre');
+            pre.textContent = '\n' + JSON.stringify(reports, '\t', 2);
+
+            //saving to localStorage
+            localStorage.setItem('MyMovieList', JSON.stringify(reports) );
+        }
+        document.addEventListener('DOMContentLoaded', ()=>{
+            document.getElementById('btn').addEventListener('click', addMovie);
+        });
+    </script>
+
+	</head>
+
+	<body>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">
+  		</script>
+
+
+  		
+  		<div class="hero-image">
+  			<a href= "spanish.html" align= "right"> <h1 class=" font-cairo" style= "color: white; font-size: 23px;"> (En Español) </h1><a>
+	  		<div class="hero-text">
+		    	<h1 class="text-center font-cairo font-size-large" > <b> Eyes On You</h1>
+		    	<br>
+		    	<p class="text-center font-cairo font-size-medium"> Be alerted when there are ICE raids in your area. </p>
+
+    	<!-- <button >Sign up to recieve texts and/or phone calls when there are ICE raids in the area. </button> -->
+  			</div>
+  		</div>
+
+
+
+  		<br>
+		<br>
+
+		  	<h2 class="text-center font-cairo font-size-middle" > What is Eyes On You? </h2>
+		  	<p class="text-center font-cairo font-size-small " > Eyes On You is a database system that gathers user input to notify communities of ICE Raids in their area for safety measures. </p>
+		  	<br>
+
+		  	<h3 class="text-center font-cairo font-size-medium" > Search for your state: </h3>
+  	<br>
+  	<center>
+  	<div class="container font-cairo">
+  	<div id="wrapper">
+    <div class="demo">
+      <div class="control-group font-cairo">
+        <select id="select-state" placeholder="Pick a state...">
+          <option value="">Select a state...</option>
+          <option value="AL">AL</option>
+          <option value="AK">AK</option>
+          <option value="AZ">AZ</option>
+          <option value="AR">AR</option>
+          <option value="CA">CA</option>
+          <option value="CO">CO</option>
+          <option value="CT">CT</option>
+          <option value="DE">DE</option>
+          <option value="DC">DC</option>
+          <option value="FL">FL</option>
+          <option value="GA">GA</option>
+          <option value="HI">HI</option>
+          <option value="ID">ID</option>
+          <option value="IL">IL</option>
+          <option value="IN">IN</option>
+          <option value="IA">IA</option>
+          <option value="KS">KS</option>
+          <option value="KY">KY</option>
+          <option value="LA">LA</option>
+          <option value="ME">ME</option>
+          <option value="MD">MD</option>
+          <option value="MA">MA</option>
+          <option value="MI">MI</option>
+          <option value="MN">MN</option>
+          <option value="MS">MS</option>
+          <option value="MO">MO</option>
+          <option value="MT">MT</option>
+          <option value="NE">NE</option>
+          <option value="NV">NV</option>
+          <option value="NH">NH</option>
+          <option value="NJ">NJ</option>
+          <option value="NM">NM</option>
+          <option value="NY">NY</option>
+          <option value="NC">NC</option>
+          <option value="ND">ND</option>
+          <option value="OH">OH</option>
+          <option value="OK">OK</option>
+          <option value="OR">OR</option>
+          <option value="PA">PA</option>
+          <option value="RI">RI</option>
+          <option value="SC">SC</option>
+          <option value="SD">SD</option>
+          <option value="TN">TN</option>
+          <option value="TX">TX</option>
+          <option value="UT">UT</option>
+          <option value="VT">VT</option>
+          <option value="VA">VA</option>
+          <option value="WA">WA</option>
+          <option value="WV">WV</option>
+          <option value="WI">WI</option>
+          <option value="WY">WY</option>
+        </select>
+      </div>
+      			        <div id="msg">
+			            <pre></pre>
+			        </div>
+    </div>
+  </div>
+</div>
+</center>
+
+   	<br>
+   	<br>
+   	<br>
+
+   	<center class="font-cairo">
+   	<div class="lol">
+		<h4 class="font-cairo"> 
+			<br>
+			<b> <h1 class="font-size-middle"> <b> SEE SOMETHING, SAY SOMETHING: </b></h1>
+				<br>
+				<p class="text-center font-cairo font-size-small " > If you see or know of an incident or raid, please let us know so we can spread the news. </p>
+				<br>
+
+ 	 			<form class="font-size-small">
+			        <div class="formBox">
+			            <label for="date"></label>
+ 	 					<input type="text" id= "date" name="date" placeholder ="MM/DD/YYYY..."> 
+			        </div>
+			        <br>
+				
+
+
+
+			        <div class="formBox">
+			            <label for="address"></label>
+			            <input type="text" id= "address" name="time" placeholder="Address...">
+			        </div>
+			        <br>
+
+			        <div class="formBox">
+
+			            <label for="description"></label>
+			            <input type="text" id= "description" name="description" placeholder="Description...">
+			        </div>
+			        <br>
+
+
+			        <div class="formBox">
+			            <button id="btn">Submit</button>
+			        </div>
+    			</form>
+
+
+ 	 		<br>	
+  </div>
+</center>
+
+
+
+<div>
+	<br>
+	<div>
+		<hr class="solid"  style="width:70% ">
+		<br>
+
+		<div class="row">
+			<div class="column" style="background-color:#ffffff;">
+			    <h2 class="font-size-large"> <i><b><ul> KNOW YOUR RIGHTS</h2>
+			    	  <ul>What are your rights? <a href="#section1"> > </a> </ul>
+					  <ul>Scenarios with ICE <a href="#section2"> > </a> </ul>
+					  <ul>ICE Regulations <a href="#section3"> > </a> </ul>
+					  <ul>How you can help your community? <a href="#section4"> > </a> </ul>
+			</div>
+
+			<div class="column" style="background-color:#ffffff;">
+
+			    <img src="./static/img/pic2.jpg" height="5" width="700" >
+			    <br>
+
+			</div>
+		  <br>
+		</div>
+
+	<br>
+	</div>
+</div>
+
+<hr class="solid"  style="width:70% ">
+<div class="main" id="section1">
+	<center>
+	    <h2 class="font-size-large"> <i><b><ul> What are your rights?</h2>
+	    	  <p> A good resource to use is a website called: <a href= "https://www.immigrantdefenseproject.org/ice-home-and-community-arrests/"> Immigration Defense Project </a>. 
+	    	  	<br>
+			<ul>ICE often pretends to be police, here's what you can do: </ul>
+				<ul> Ask them to slip their card under the door or a warrant.</ul>
+			<ul>You don't have to let them in without a warrent SIGNED by the judge.</ul>
+			<ul>DON'T LIE.</ul>
+			<ul>DON'T RUN OR PHYSICALLY RESIST ARREST.</ul>
+			<ul>You have the right to not talk to them.</ul>
+	</p>
+	<img src="./static/img/ice3.jpg" height="10" width="700">
+	</center>
+</div>
+	  </div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+
+
+	</div>
+	<hr class="solid"  style="width:70% ">
+
+	<div class="main" id="section2">
+	  <center><strong><h2 class="font-size-large"><a id = "scene"> <i><b> Scenarios with ICE </a> </h2></strong></center>
+	  <br>
+	  <br>
+	  	<div class="row">
+	  		<div class="column">
+				<p style= "float: left; margin-left: 40px;">Here are some scenarios
+					
+					such as: </p>
+				<br>
+				</br>
+				<p style= "float:left; margin-left:100px">
+				<li >"If you are stopped on the street or in a public place" </li>
+				</p>
+
+				<p style= "float: left; margin-left: 100px;">
+				<li>"If ICE comes to your door"</li>
+				</p>
+
+				<p style= "float: left; margin-left: 100px;"> 
+				<li >"An example of a valid and invalid warrant"</li>
+				</p>
+
+				<p style= "float: left; margin-left: 100px;">
+				<li >"If you are stopped in your car"</li></p>
+
+				<p style= "float: left; margin-left: 100px;">
+				<li >"If ICE comes to your workplace"</li></p>
+
+				<p style= "float: left; margin-left: 100px;">
+				<li >"If you are arrested by ICE"</li>
+				</p>
+			</div>
+		
+	  		<div class="column">
+
+	    <iframe src="https://wearecasa.org/wp-content/uploads/2017/04/KYR-New-V2.1English.pdf" width="70%" height="500px">
+	    </iframe>
+
+			</div>
+		</div>
+
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+	<hr class="solid"  style="width:70% ">
+    </iframe>
+
+<div class="main" id="section3">
+  <center><strong><h2 class=" font-size-large"> <a id = "ICE"> <b> ICE Regulations </a> </h2></strong>
+ <ul> This <a href= "https://locator.ice.gov/odls/#/index"> Online Detainee Locator System </a> helps look for detained family, friends, loved ones over the age of 18</ul>
+  <ul> Immigrants that have been convicted of a crime are more likely to be deported, so beware.
+ </ul>
+ <ul>People that live in New York City, LA, and other Sancturary cites are NOT SAFE, more information in this <a href= "https://www.nytimes.com/2018/02/27/nyregion/sanctuary-cities-immigrants-ice.html"> link is a NY Times article about Santuary cities </a></ul>
+</p>
+
+ <br>
+   <img src="./static/img/abolishice.jpg">
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr class="solid"  style="width:70% ">
+<div class="main" id="section4">
+  <center><strong><h2 class="font-size-large"><a id = "docs"> <b>How you can help your community? </a> </h2></strong></center>
+  	<br>
+  <center>
+<ul> Be on the look out. If you see something use our ALERT to say something. 
+</ul>
+<ul> You have the right to ask question and inquire about a situation that may involve someone in your commmunity</ul>
+<ul></ul> To report a raid to the United We Dream Hotline: +1-844-363-1423 </ul>
+<ul> <a href= "https://www.nilc.org/get-involved/community-education-resources/know-your-rights/raids/">
+<br>
+Click on this link for more information about Immigration raids </a> </ul>
+<img src="">
+
+    </iframe>  </a> </li>
+   <img src="./static/img/pic3.jpg">
+   <br>
+   <br>
+</center>
+
+</body>
+
+
+
+</html>
